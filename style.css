@@ -79,3 +79,20 @@ div.grid-item>img {
   height: 100%;
 }
 
+@media (max-width: 700px) {
+  div.gallary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2%;
+  }
+}
+
+@media (max-width: 500px) {
+  div.gallary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+    gap: 2%;
+  }
+}
